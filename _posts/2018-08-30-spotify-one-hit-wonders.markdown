@@ -5,20 +5,21 @@ date:   2018-08-30 14:16:59 -0600
 categories: web-development
 math: true
 ---
-In an effort to practice building an app from start to finish, I followed through on an idea that came to me pretty much out of nowhere. I present the [One-Hit-Wonder-Calculator][app-url]
+In an effort to practice building an app from start to finish, I followed through on an idea that came to me pretty much out of nowhere. I present the [One-Hit-Wonder Calculator][app-url]
 
 Theory: If you can quantify how popular a musician’s songs are, you can quantify how much of a one-hit-wonder (OHW) they are.
 
 Method: Popularity data for an artist’s top tracks is available from Spotify. I take this data, sort it from high to low, then run it through a function that fits according to
 
-$$y = Ae^(-bx)$$
+$$y = Ae^{-bx}$$
 
 The assumption is that the parameter “b,” in describing how quickly an artist’s popularity drops after their first track, describes how much of a OHW they are.
 
 
 I define the one-hit-wonder factor as
+
 ​
-$$OHW = b x 1000$$
+$$OHW = b * 1000$$
 
 and end up with numbers ranging from the low teens to… well I won’t give it away. I define several ranges in the app, and I say that anything over 100 is a “Certified One-Hit-Wonder,” but I probably haven’t found the highest. That’s a different project.
 
