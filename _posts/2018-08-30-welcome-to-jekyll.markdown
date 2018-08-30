@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "One hit wonders on Spotify"
 date:   2018-08-30 14:16:59 -0600
 categories: jekyll update
 ---
