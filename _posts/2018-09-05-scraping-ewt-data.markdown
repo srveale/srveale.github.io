@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Scraping Emergency Room Wait Times"
-date:   2018-08-30 14:16:59 -0600
-categories: web-development
+date:   2018-09-05 14:16:59 -0600
+categories: data-science
 math: true
 ---
 
