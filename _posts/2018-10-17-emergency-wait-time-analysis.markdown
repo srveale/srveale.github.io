@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analyzing Emergency Room Wait Times"
-date:   2018-12-10 14:16:59 -0600
+date:   2018-10-15 14:16:59 -0600
 categories: data-science
 math: true
 ---
